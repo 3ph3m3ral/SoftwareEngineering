@@ -1,0 +1,29 @@
+DOCKER image construction workflow example
+
+
+1 create a Dockerfile
+
+        Examples of a Dockerfile
+
+        FROM python:slim
+        RUN pip install requests
+        COPY my_script.py /tmp/
+        CMD ["python", "/tmp/my_script.py"]
+
+
+        Example of Flask app
+
+        FROM python:slim
+        COPY app.py /app/
+        WORKDIR /app
+        RUN pip install flask
+        RUN export FLASK_APP=app.py
+        EXPOSE 5000
+        CMD ["/usr/local/bin/flask", "run", "--host", "0.0.0.0"]
+
+
+2 docker build --tag python-docker .
+        sudo docker build -t my_script .
+
+3 run the image
+        sudo docker run sudo docker run hello
