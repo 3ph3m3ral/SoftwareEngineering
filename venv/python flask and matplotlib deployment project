@@ -1,7 +1,4 @@
-python3 -m venv venv    # create virtual environment 
-
-. ./venv/bin/activate # activate enviroment
-
-pip install flask matplotlib # install flask and matplotlib libraries
-
-(venv)$ python flask_matplotlib.py # lunch sript in python inside the virtual enviroment
+python3 -m venv venv
+. ./venv/bin/activate
+pip install flask matplotlib
+python flask_matplotlib.py
