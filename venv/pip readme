@@ -1,3 +1,4 @@
+# how install python inside the virtual environment
 source activate
 sudo apt install python3-pip
 python -m pip install --upgrade pip
