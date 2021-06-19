@@ -41,3 +41,10 @@ OTHER USEFUL COMMANDS
    docker ps            : see the status of lunched docker containers
    docker images        : see the aviable docker images
    docker kill          : stop
+   
+   
+   # RUN COMMAND 
+   sudo docker exec ${CONTAINER_ID or CONTAINER_NAME} <command>
+   e.g.
+   sudo docker exec ids1234 python3 /var/usr/script.py
+   
