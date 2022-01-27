@@ -1,0 +1,5 @@
+# ping range of IPs
+
+python3 ping_ip.py 123.421.2.21 199.2.32.1
+
+python3 ping_ip.py <min-ip> <max-ip>
