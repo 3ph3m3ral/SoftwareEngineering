@@ -1,1 +1,0 @@
-scp -r ./hashing.py ermano@65.108.47.199:/home/ermano/erm4

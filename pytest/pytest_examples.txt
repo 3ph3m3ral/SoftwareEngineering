@@ -1,6 +1,21 @@
-## My test file
+import pytest         into my_file.py
 
-import pytest
+import my_file       into test_my_file.py
+
+
+
+pytest test_my_file.py  -v -x
+
+
+pytest test_my_file.py
+
+pytest test_my_file.py -v 
+
+pytest test_my_file.py -k  'add'   # run test that name function with add
+
+pytest test_my_file.py -x    # exit at first failure
+
+
 
 def test_raises_exception_on_non_string_arguments():
     with pytest.raises(TypeError):
@@ -8,7 +23,9 @@ def test_raises_exception_on_non_string_arguments():
         # rise error if the type is not string
         
         
-        
+        assert 'pattern' in string
+        assert 'hello' is str
+        assert 'hello' == hello
         
        
 # pyTest Fixtures
