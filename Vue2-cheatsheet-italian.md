@@ -25,6 +25,7 @@ c. Utilizzo di @vue/cli per inizializzare il progetto.
 
 ## Example Vue project structure
 
+```
 todo-app
 ├── node_modules
 ├── public
@@ -41,6 +42,7 @@ todo-app
 ├── babel.config.js
 ├── package.json
 └── yarn.lock
+```
 
 # Shell
 
