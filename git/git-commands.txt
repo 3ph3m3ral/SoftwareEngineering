@@ -40,3 +40,15 @@ git commit -m "edit file1"
 
 # push changes to github
 git push
+
+
+
+You can replace your working copy with the copy in your index using
+git checkout <file>
+
+You can replace your working copy with the copy in HEAD using
+git checkout HEAD <file>
+
+
+If you committed something you shouldn’t have, and want to completely
+wipe out the commit: git reset --hard HEAD∧
