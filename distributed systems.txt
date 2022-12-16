@@ -1,0 +1,24 @@
+## Distributed Systems
+
+## What is a distributed system?
+At a basic level, a distributed system is a collection of computers that work together 
+to form a single end-user computer. All of these distributed machines have a shared state and operate concurrently.
+They are capable of independently failing without harming the entire system, just like microservices. 
+These self-contained, interdependent computers are connected by a network to share information, communicate and exchange information easily.
+
+## Pros
+Distributed systems can be difficult to implement and maintain, but there are many benefits to this design. Let's look at some of these benefits.
+
+Scaling: A distributed system allows you to scale horizontally so that you can account for more traffic.
+Modular growth: There's almost no limit to how much you can scale.
+Fault Tolerance: Distributed systems are more tolerant of faults than a single machine.
+Affordable: The initial cost is higher than a traditional system, but thanks to their scalability they quickly become more affordable
+Low latency: Users can have a node in multiple locations, so traffic will reach the closest node
+Efficiency: Distributed systems break complex data into smaller pieces
+Parallelism: Distributed systems can be designed for parallelism, where multiple processors divide a complex problem into parts
+
+## Cons
+Fault Management: Fault management can be difficult with distributed systems because some components fail while others continue to function. This can often be an advantage for preventing large-scale failures, but it also brings added complexity when it comes to troubleshooting and debugging.
+Concurrency: A common problem occurs when multiple clients try to access a shared resource at the same time. You must ensure that all resources are secure in a concurrent environment.
+Security Issues: Security and data sharing have increased the risks in distributed computing systems. The network must be secure and users must be able to securely access data replicated in multiple locations.
+Higher initial infrastructure costs: The initial cost of implementing a distributed system can be higher than that of a single system. This price includes basic network configuration issues, such as broadcasting, heavy load, and information loss.
